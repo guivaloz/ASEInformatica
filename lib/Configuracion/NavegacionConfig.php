@@ -30,13 +30,35 @@ class NavegacionConfig {
     protected $sitio_titulo  = 'ASE Informática';
     protected $logotipo; // 'imagenes/logotipo.png'
     protected $opciones      = array(
-        'Servicios' => 'servicios/index.html',
-        'Productos' => 'productos/index.html',
+        'Servicios' => array(
+            'Reparación de equipo'       => '#',
+            'Sistemas de punto de venta' => '#',
+            'Facturación electrónica'    => '#',
+            'Redes'                      => '#',
+            'Telefonía'                  => '#',
+            'VPNs'                       => '#'),
+        'Productos' => array(
+            'Antivirus'                      => '#',
+            'Cámaras de vigilancia'          => '#',
+            'Computadoras'                   => '#',
+            'Control de acceso y asistencia' => '#',
+            'Software'                       => '#'),
         'Contacto'  => 'contacto/contacto.html');
     static public $iconos    = array(
-        'Servicios'      => 'fa fa-files-o',
-        'Artículos'      => 'fa fa-server',
-        'Presentaciones' => 'fa fa-sun-o');
+        'Servicios' => 'fa fa-rocket',
+            'Reparación de equipo'       => 'fa fa-cogs',
+            'Sistemas de punto de venta' => 'fa fa-cogs',
+            'Facturación electrónica'    => 'fa fa-cogs',
+            'Redes'                      => 'fa fa-cogs',
+            'Telefonía'                  => 'fa fa-cogs',
+            'VPNs'                       => 'fa fa-cogs',
+        'Productos' => 'fa fa-shopping-cart',
+            'Antivirus'                      => 'fa fa-puzzle-piece',
+            'Cámaras de vigilancia'          => 'fa fa-puzzle-piece',
+            'Computadoras'                   => 'fa fa-puzzle-piece',
+            'Control de acceso y asistencia' => 'fa fa-puzzle-piece',
+            'Software'                       => 'fa fa-puzzle-piece',
+        'Contacto'  => 'fa fa-phone');
     protected $buscador_html = <<<FINAL
           <form method="get" id="" action="http://www.aseinformatica.com.mx/buscador-resultados.html">
             <input type="hidden" value="" name="cx">

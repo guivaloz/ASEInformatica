@@ -1,5 +1,5 @@
 /**
- * Movimiento Libre
+ * ASE Informática
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -16,9 +16,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- *   morado #23153E #33254E #493B64 #61537C #827798
- *   azul   #12283B #22374A #374C5F #4E6375 #708190
- *   vino   #4A1332 #5C2645 #76415F #915D7B #B288A0
  */
 
 /*
@@ -27,7 +24,7 @@
 body {
     font-family:'Droid Sans',sans-serif;
     font-weight:400;
-    background-color:#12283B;
+    background-color:#2D456B;
 }
 h1, .h1,
 h2, .h2,
@@ -56,8 +53,8 @@ a:active  { color:#0088FF; text-decoration:underline; }
  * Navegación
  */
 .navbar-default {
-    background-color:#12283B;
-    border-color:#827798;
+    background-color:#2D456B;
+    border-color:#FFFFFF;
 }
 .navbar-header { color:white; }
 .navbar-default,
@@ -78,12 +75,12 @@ a:active  { color:#0088FF; text-decoration:underline; }
 .navbar-default .navbar-brand a:visited,
 .navbar-default .navbar-brand a:hover,
 .navbar-default .navbar-brand a:active { color:white; }
-.navbar-static-top                     { background-color:#12283B; }
+.navbar-static-top                     { background-color:#2D456B; }
 #side-menu a,
 #side-menu a:link,
-#side-menu a:visited { color:#9FB7CC; background-color:#22374A; font-weight:400; }
+#side-menu a:visited { color:white; background-color:#1378AC; font-weight:400; }
 #side-menu a:hover,
-#side-menu a:active  { color:white; background-color:#4E6375; }
+#side-menu a:active  { color:white; background-color:#168CC9; }
 .sidebar ul li       { border-bottom-color:#12283B; }
 
 /*
@@ -100,15 +97,6 @@ a:active  { color:#0088FF; text-decoration:underline; }
 }
 .encabezado-autor-fecha {
     color:#888;
-}
-
-/*
- * En las presentaciones uso la clase diapositiva para que tengan sobra las vistas previas
- */
-.diapositiva-sombra {
-    margin:12px 8px;
-    padding:0;
-    box-shadow:4px 4px 2px #888888;
 }
 
 /*
@@ -129,14 +117,18 @@ a:active  { color:#0088FF; text-decoration:underline; }
     background-image:url('../imagenes/encabezado.jpg');
     background-repeat: no-repeat;
     background-position: right top;
-    min-height:190px;
+    min-height:168px;
 }
-#organizacion .encabezado {
+#organizacion div.encabezado,
+#organizacion div.encabezado-descripcion {
     color:white;
-    border-bottom:none;
 }
-#organizacion .encabezado-descripcion {
-    color:white;
+#organizacion div.encabezado h1 {
+    margin-top:0;
+}
+#organizacion .contenido-imagen-previa {
+    float:left;
+    padding:0 12px;
 }
 #destacado {
     padding:16px;
@@ -262,4 +254,3 @@ a:active  { color:#0088FF; text-decoration:underline; }
         height:64px;
     }
 }
-

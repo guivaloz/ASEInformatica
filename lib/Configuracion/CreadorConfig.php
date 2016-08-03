@@ -44,10 +44,12 @@ class CreadorConfig {
             '\\Contacto\\Imprenta',
             '\\Productos\\Imprenta',
             '\\Servicios\\Imprenta');
-    //~ $this->imprentas_mapa_sitio     = $this->imprentas;
-    //~ $this->imprentas_redifusion     = $this->imprentas;
-    //~ $this->imprentas_autores;
-        $this->imprentas_categorias;
+        $this->imprentas_mapa_sitio     = $this->imprentas;
+        $this->imprentas_redifusion     = $this->imprentas;
+        $this->imprentas_autores        = array(
+            '\\Productos\\Imprenta',
+            '\\Servicios\\Imprenta');
+        $this->imprentas_categorias     = $this->imprentas_autores;
         $this->imprentas_pagina_inicial = $this->imprentas_categorias;
     } // constructor
 

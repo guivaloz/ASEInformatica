@@ -55,7 +55,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $organizacion                 = new \Base\SchemaOrganization();
         $organizacion->name           = 'ASE Informática';
         $organizacion->description    = 'Cámaras de vigilancia, Computadoras, Control de acceso y asistencia.';
-    //~ $organizacion->image          = 'imagenes/aseinformatica.png';
+        $organizacion->image          = 'imagenes/aseinformatica.jpg';
+        $organizacion->image_show     = true;
         $organizacion->is_article     = false;
         $organizacion->big_heading    = true;
         // Acumular

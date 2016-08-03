@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - ReparacionDeEquiposDeComputo
+ * Movimiento Libre - ReparacionDeEquipoDeComputo
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -23,9 +23,9 @@
 namespace Servicios;
 
 /**
- * Clase ReparacionDeEquiposDeComputo
+ * Clase ReparacionDeEquipoDeComputo
  */
-class ReparacionDeEquiposDeComputo extends \Base\PublicacionSchemaBlogPosting {
+class ReparacionDeEquipoDeComputo extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
@@ -41,11 +41,11 @@ class ReparacionDeEquiposDeComputo extends \Base\PublicacionSchemaBlogPosting {
         $this->descripcion                = 'Confiabilidad y calidad con técnicos certificados..';
         $this->claves                     = 'Reparacion, Equipos, Computadoras';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/Servicios/ReparacionDeEquiposDeComputo.md';
+        $this->contenido_archivo_markdown = 'lib/Servicios/ReparacionDeEquipoDeComputo.md';
         // Para el Organizador
         $this->categorias                 = array('Reparación de equipo');
     } // constructor
 
-} // Clase ReparacionDeEquiposDeComputo
+} // Clase ReparacionDeEquipoDeComputo
 
 ?>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.aseinformatica.com.mx/index.html</loc>
+    <lastmod>2016-08-03</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.aseinformatica.com.mx/contacto/contacto.html</loc>
+    <lastmod>2016-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.aseinformatica.com.mx/productos/camaras-de-video-vigilancia.html</loc>
+    <lastmod>2016-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.aseinformatica.com.mx/servicios/reparacion-de-equipo-de-computo.html</loc>
+    <lastmod>2016-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
