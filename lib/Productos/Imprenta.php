@@ -31,19 +31,19 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
-        // Nombre del Productos dentro de /lib que contiene los archivos con las publicaciones
-        $this->publicaciones_Productos = 'Productos';
+        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
+        $this->publicaciones_directorio = 'Productos';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Título';
-        $this->descripcion              = 'Descripción.';
-        $this->claves                   = 'Clave1, Clave2, Clave3';
+        $this->titulo                   = 'Productos';
+        $this->descripcion              = 'Con nosotros puede adquirir una gran variedad de productos.';
+        $this->claves                   = 'Computadoras, Software, Microsip';
         $this->encabezado_color         = '#FFFFFF';
         // Opción de Navegación a poner activa
-        $this->nombre_menu              = 'Opción';
+        $this->nombre_menu              = 'Productos';
         // Ruta a la clase para hacer la página con el índice
         $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
-        // Productos en la raíz que será creado para alojar el concentrador y las páginas
-        $this->Productos               = 'titulo';
+        // Directorio en la raíz que será creado para alojar el concentrador y las páginas
+        $this->directorio               = 'productos';
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

@@ -27,35 +27,6 @@ namespace Configuracion;
  */
 class PaginaInicialConfig extends \Base\Plantilla {
 
-    // public $sitio_titulo;
-    // public $sitio_url;
-    // public $rss;
-    // public $favicon;
-    // public $propio_css;
-    // public $en_raiz;
-    // public $para_compartir;
-    // public $autor;
-    // public $mensaje_oculto;
-    // public $pie;
-    // protected $google_analytics;
-    // protected $google_site_verification;
-    // protected $cabecera_bootstrap_css;
-    // protected $cabecera_font_awesome_css;
-    // protected $cabecera_google_fonts_css;
-    // protected $scripts_jquery_css;
-    // protected $scripts_bootstrap_js;
-    // public $titulo;
-    // public $descripcion;
-    // public $claves;
-    // public $directorio;
-    // public $archivo_ruta;
-    // public $imagen_previa_ruta;
-    // public $icono;
-    // public $navegacion;
-    // public $contenido;
-    // public $mapa_inferior;
-    // public $javascript;
-    // public $contenido_en_renglon;
     public $imprentas; // Arreglo con rutas a las clases de ImprentaPublicaciones, es usado en ultimas_publicaciones
 
     /**
@@ -200,18 +171,16 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[] = '    <div class="row">';
         $this->contenido[] = '      <div class="col-md-8">';
         $this->contenido[] = '        <a href="index.html">Inicio</a> |';
-        $this->contenido[] = '        <a href="apuntes/index.html">Apuntes</a> | ';
-        $this->contenido[] = '        <a href="articulos/index.html">Artículos</a> | ';
-        $this->contenido[] = '        <a href="licencias/index.html">Licencias</a> | ';
-        $this->contenido[] = '        <a href="presentaciones/index.html">Presentaciones</a> |';
+        $this->contenido[] = '        <a href="productos/index.html">Productos</a> | ';
+        $this->contenido[] = '        <a href="servicios/index.html">Servicios</a> | ';
         $this->contenido[] = '        <a href="contacto/contacto.html">Contacto</a>';
         $this->contenido[] = '      </div>';
         $this->contenido[] = '      <div class="col-md-4">';
         $this->contenido[] = '        <div class="pull-right redes-sociales">';
-        $this->contenido[] = '          <a class="fa fa-twitter-square" href="https://twitter.com/guivaloz" target="_blank"></a>';
-        $this->contenido[] = '          <a class="fa fa-github-square" href="https://github.com/guivaloz" target="_blank"></a>';
-        $this->contenido[] = '          <a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/guivaloz" target="_blank"></a>';
-        $this->contenido[] = '          <a class="fa fa-google-plus-square" href="https://plus.google.com/+GuillermoVald%C3%A9sLozano" target="_blank"></a>';
+        $this->contenido[] = '          <a class="fa fa-twitter-square" href="#" target="_blank"></a>';
+        $this->contenido[] = '          <a class="fa fa-github-square" href="#" target="_blank"></a>';
+        $this->contenido[] = '          <a class="fa fa-linkedin-square" href="#" target="_blank"></a>';
+        $this->contenido[] = '          <a class="fa fa-google-plus-square" href="#" target="_blank"></a>';
         $this->contenido[] = '          <a class="fa fa-rss-square" href="rss.xml"></a>';
         $this->contenido[] = '        </div>';
         $this->contenido[] = '      </div>';

@@ -28,9 +28,9 @@ namespace Configuracion;
 class RedifusionConfig {
 
     public $xml_encoding      = 'UTF-8';
-    public $sitio_titulo      = 'Movimiento Libre';
-    public $sitio_url         = 'http://www.movimientolibre.com'; // Sin diagonal al final
-    public $sitio_descripcion = 'Últimas publicaciones de Movimiento Libre.';
+    public $sitio_titulo      = 'ASE Informática';
+    public $sitio_url         = 'http://www.aseinformatica.com.mx'; // Sin diagonal al final
+    public $sitio_descripcion = 'ASE Informática.';
     public $lenguaje          = 'es-MX';
     public $generator         = 'Plataforma de Conocimiento v1.0';
     public $webmaster_email   = 'guivaloz@movimientolibre.com (Guillermo Valdes Lozano)';
