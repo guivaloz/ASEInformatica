@@ -88,6 +88,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[]  = '    <div class="row">';
         $this->contenido[]  = '      <div class="col-sm-6 col-md-6">';
         $this->contenido[]  = $productos->html();
+        $this->contenido[]  = '        <div class="clearfix"></div>';
         $this->contenido[]  = '      </div>';
         $this->contenido[]  = '      <div class="col-sm-6 col-md-6">';
         $this->contenido[]  = $servicios->html();

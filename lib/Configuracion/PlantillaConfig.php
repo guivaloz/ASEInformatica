@@ -80,7 +80,7 @@ FINAL;
             // Font Awesome según https://www.bootstrapcdn.com/
             $this->cabecera_font_awesome_css = '<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">';
             // Google Fonts Droid Sans
-            $this->cabecera_google_fonts_css = '<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">';
+            $this->cabecera_google_fonts_css = '<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">';
         }
     } // constructor
 

@@ -18,90 +18,66 @@
  *
  */
 
-/*
- * Global
- */
-body {
-    font-family:'Droid Sans',sans-serif;
-    font-weight:400;
-    background-color:#2D456B;
-}
+/* Global */
+body      { font-family:'Open Sans',sans-serif; font-weight:400; background-color:#2D456B; }
 h1, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4,
 h5, .h5,
-h6, .h6 {
-    font-family:'Droid Sans',sans-serif;
-    font-weight:700;
-    line-height:1.2;
-}
+h6, .h6   { font-family:'Open Sans',sans-serif; font-weight:700; line-height:1.2; }
 a         { color:#1161A8; text-decoration:none; font-weight:700; }
 a:link,
 a:visited { color:#1161A8; text-decoration:none; }
 a:hover,
 a:active  { color:#0088FF; text-decoration:underline; }
 
-/*
- * Page wrapper
- */
-#page-wrapper  {
-    padding:0;
-}
+/* Page wrapper */
+#page-wrapper { padding:0; }
 
-/*
- * Navegación
- */
-.navbar-default {
-    background-color:#2D456B;
-    border-color:#FFFFFF;
-}
-.navbar-header { color:white; }
+/* Navegacion fondos colores */
+.navbar-default      { background-color:#2D456B; border-color:#FFFFFF; }
+.navbar-static-top   { background-color:#2D456B; }
+#side-menu a,
+#side-menu a:link,
+#side-menu a:visited { background-color:#1378AC; font-weight:400; }
+#side-menu a:hover,
+#side-menu a:active  { background-color:#168CC9; }
+.sidebar ul li       { border-bottom-color:#12283B; }
+
+/* Navegacion textos colores */
 .navbar-default,
 .navbar-default a,
 .navbar-default a:link,
 .navbar-default a:visited,
 .navbar-default a:hover,
-.navbar-default a:active               { color:white; }
+.navbar-default a:active                { color:white; }
 .navbar-brand,
 .navbar-brand a,
 .navbar-brand a:link,
 .navbar-brand a:visited,
 .navbar-brand a:hover,
-.navbar-brand a:active                 { color:white; }
+.navbar-brand a:active                  { color:white; }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand a,
 .navbar-default .navbar-brand a:link,
 .navbar-default .navbar-brand a:visited,
 .navbar-default .navbar-brand a:hover,
-.navbar-default .navbar-brand a:active { color:white; }
-.navbar-static-top                     { background-color:#2D456B; }
+.navbar-default .navbar-brand a:active  { color:white; }
+.navbar-header                          { color:white; }
 #side-menu a,
 #side-menu a:link,
-#side-menu a:visited { color:white; background-color:#1378AC; font-weight:400; }
+#side-menu a:visited,
 #side-menu a:hover,
-#side-menu a:active  { color:white; background-color:#168CC9; }
-.sidebar ul li       { border-bottom-color:#12283B; }
+#side-menu a:active                     { color:white; }
 
-/*
- * Cuerpo
- */
-.autor {
-    background-color:#B4C0CD;
-}
-.encabezado {
-    border-bottom:1px solid #CCC;
-}
-.encabezado-descripcion {
-    color:#666;
-}
-.encabezado-autor-fecha {
-    color:#888;
-}
+/* Cuerpo */
+.autor                  { background-color:#B4C0CD; }
+.encabezado             { border-bottom:1px solid #CCC; }
+.encabezado-descripcion { color:#666; }
+.encabezado-autor-fecha { color:#888; }
 
-/*
- * Mapa inferior
- */
+/* Mapa inferior */
 .mapa-inferior            { background-color:#BEC5CB; }
 .redes-sociales a,
 .redes-sociales a:link,
@@ -109,9 +85,7 @@ a:active  { color:#0088FF; text-decoration:underline; }
 .redes-sociales a:hover,
 .redes-sociales a:active  { color:#4E6375; text-decoration:none; }
 
-/*
- * Página inicial
- */
+/* Página inicial */
 #organizacion {
     background-color:#003060;
     background-image:url('../imagenes/encabezado.jpg');
@@ -209,6 +183,11 @@ a:active  { color:#0088FF; text-decoration:underline; }
     .destacado-servicio {
         min-height:90px;
     }
+    #organizacion .contenido-imagen-previa {
+        width:180px;
+        height:112px;
+        margin:0 6px;
+    }
     #destacado .contenido-imagen-previa {
         width:80px;
         height:80px;
@@ -245,6 +224,11 @@ a:active  { color:#0088FF; text-decoration:underline; }
         height:64px;
         margin:0 2px;
         float:left;
+    }
+    #organizacion .contenido-imagen-previa {
+        width:120px;
+        height:75px;
+        margin:0 2px;
     }
     #ultimas-publicaciones .breve {
         padding:4px;
